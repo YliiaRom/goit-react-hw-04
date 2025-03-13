@@ -7,8 +7,8 @@ export default function ImageCard({ item }) {
       </div>
       <div className={css.boxText}>
         <p>likes : {item.likes}</p>
-        <p>portfolio_url : {item.user.portfolio_url || "ananim"}</p>
-        <p>twitter_username: {item.user.twitter_username || "ananim"}</p>
+        <p>portfolio_url : {item.user.portfolio_url || "-"}</p>
+        <p>twitter_username: {item.user.twitter_username || "-"}</p>
       </div>
       {/* <div className={css.boxText}>
         <p>model: {item.exif.model || "-"}</p>
